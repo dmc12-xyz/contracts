@@ -1,13 +1,8 @@
-# Sample Hardhat Project
+### Re-entrancy
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Set of contracts to demonstrate the re-entrancy attack with unit tests.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+```
+npm run compile
+npm run test
 ```
