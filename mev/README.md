@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+### mev
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrate how Maximal Extractable Value(mev) is executed
 
-Try running some of the following tasks:
+```
+npm run compile
+npx hardhat run scripts/flashbots.js --network goerli
+```
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+```
+This example is deployed at: 0x32C576D2cD0f8f9057e31f592b92D4d689b1C3c3
 ```
